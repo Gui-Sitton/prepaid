@@ -29,3 +29,7 @@ Depois de exceder os limites do pacote:
 **Teste as hipóteses**
 * A receita média dos usuários dos planos Ultimate e Surf são diferentes.
 * A receita média dos usuários da área de NY-NJ é diferente dos usuários de outras regiões.
+
+*Conclusão**
+
+O plano surf por ter um limite mais baixo muitas pessoas pagam um valor extra pelo uso, superando o valor do plano ultimate muitas vezes, trazendo assim mais dinheiro para a empresa. Já o ultimate não, todos seus usuários pagam 70 dólares. Não podemos afirmar que a receita da região de NY-NJ é igual as demais, sua média é um pouco a baixo da média das demais.
