@@ -1,35 +1,36 @@
-# Qual.e.o.Melhor.Plano
-Sou aluno da TripleTen no curso de Ciência de Dados, estou divulgando projetos que desenvolvi para meu portifólio. Este é o quarto projeto.
+# Which.is.the.Best.Plan
 
-Neste projeto trabalho como analista para a empresa de telecomunicações Megaline. A empresa oferece aos seus cliente planos pré-pagos, Surf e Ultimate. O departamento comercial quer saber quais dos planos dão mais receita para ajustar o orçamento de publicidade.
-Realizei uma primeira análise dos planos baseados em uma pequena seleção de clientes. Obtive dados de 500 clientes da Megaline: que clientes são, de onde eles são, qual plano usam, o número de chamadas que eles fizeram e mensagens que eles enviaram em 2018. O meu trabalho é analisar o comportamento dos clientes e determinar quais planos pré-pagos dão mais receita.
 
-**Descrição dos planos**
+In this project I work as an analyst for the telecommunications company Megaline. The company offers its customers pre-paid plans, Surf and Ultimate. The sales department wants to know which plans bring in the most revenue in order to adjust the advertising budget.
+I carried out an initial analysis of the plans based on a small selection of customers. I obtained data from 500 Megaline customers: which customers they are, where they are from, which plan they use, the number of calls they made and messages they sent in 2018. My job is to analyze customer behavior and determine which prepaid plans bring in the most revenue.
 
-Perceba: A Megaline arredonda segundos para minutos, e megabytes para gigabytes. Para chamadas, cada chamada individual é arredondada para cima: mesmo se uma chamada tenha durado apenas um segundo, será contado como um minuto. Para trafego de web, sessões individuais de web não são arredondadas para cima. Ao invés disso, o total do mês é arredondado para cima. Se alguém usar 1025 megabytes esse mês, eles serão cobrados por 2 gigabytes.
+**Description of plans**
+
+Note: Megaline rounds seconds to minutes, and megabytes to gigabytes. For calls, each individual call is rounded up: even if a call only lasted a second, it will be counted as a minute. For web traffic, individual web sessions are not rounded up. Instead, the total for the month is rounded up. If someone uses 1025 megabytes this month, they will be charged for 2 gigabytes.
 
 **Surf**
 
-Preço mensal: $20
-500 minutos mensais, 50 mensagens de texto e 15 GB de dados
-Depois de exceder os limites do pacote:
-1 minuto: 3 centavos
-1 mensagem de texto: 3 centavos
-1 GB de dados: $10
+Monthly price: $20
+500 minutes per month, 50 text messages and 15 GB of data
+After exceeding the package limits:
+1 minute: 3 cents
+1 text message: 3 cents
+1 GB of data: $10
 
 **Ultimate**
 
-Preço mensal: $70
-3000 minutos mensais, 1000 mensagens de texto, e 30 GB de dados
-Depois de exceder os limites do pacote:
-1 minuto: 1 centavo
-1 mensagem de texto: 1 centavo
-1 GB de dados: $7
+Monthly price: $70
+3000 monthly minutes, 1000 text messages, and 30 GB of data
+After exceeding the package limits:
+1 minute: 1 cent
+1 text message: 1 cent
+1 GB of data: $7
 
-**Teste as hipóteses**
-* A receita média dos usuários dos planos Ultimate e Surf são diferentes.
-* A receita média dos usuários da área de NY-NJ é diferente dos usuários de outras regiões.
+**Test the hypotheses**
 
-**Conclusão**
+* The average revenue of Ultimate and Surf users is different.
+* The average revenue of users in the NY-NJ area is different from users in other regions.
 
-O plano surf por ter um limite mais baixo muitas pessoas pagam um valor extra pelo uso, superando o valor do plano ultimate muitas vezes, trazendo assim mais dinheiro para a empresa. Já o ultimate não, todos seus usuários pagam 70 dólares. Não podemos afirmar que a receita da região de NY-NJ é igual as demais, sua média é um pouco a baixo da média das demais.
+**Conclusion**
+
+Because the Surf plan has a lower limit, many people pay extra for usage, often exceeding the value of the Ultimate plan, thus bringing in more money for the company. The ultimate plan does not, all users pay 70 dollars. We can't say that the NY-NJ region's revenue is the same as the rest, but its average is a little lower than the rest.
